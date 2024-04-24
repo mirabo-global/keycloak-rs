@@ -1,0 +1,34 @@
+generatorName: rust
+library: reqwest
+globalProperties:
+  apis:
+    - Users
+  models: 
+    - UserRepresentation
+    - UserProfileMetadata
+    - UserProfileAttributeMetadata
+    - UserProfileAttributeGroupMetadata
+    - CredentialRepresentation
+    - FederatedIdentityRepresentation
+    - UserConsentRepresentation
+    - SocialLinkRepresentation
+    - UPConfig
+    - UPGroup
+    - UnmanagedAttributePolicy
+    - UPAttribute
+    - UPAttributeRequired
+    - UPAttributePermissions
+    - UPAttributeSelector
+    - UserSessionRepresentation
+    - GroupRepresentation
+  supportingFiles: 
+    - Cargo.toml
+    - lib.rs
+    - mod.rs
+    - README.md
+    - configuration.rs
+    - .gitignore
+additionalProperties:
+  packageName: keycloak-rs
+  packageVersion: 24.0.3
+  avoidBoxedModels: true
