@@ -1,5 +1,5 @@
 [package]
-name = "keycloak-rs"
+name = "keycloak_rs"
 version = "24.0.3"
 authors = ["OpenAPI Generator team and contributors"]
 description = "This is a REST API reference for the Keycloak Admin REST API."

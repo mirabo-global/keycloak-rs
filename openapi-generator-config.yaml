@@ -29,6 +29,6 @@ globalProperties:
     - configuration.rs
     - .gitignore
 additionalProperties:
-  packageName: keycloak-rs
+  packageName: keycloak_rs
   packageVersion: 24.0.3
   avoidBoxedModels: true
